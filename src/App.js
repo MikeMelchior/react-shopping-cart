@@ -1,11 +1,10 @@
 import React from "react";
-import TestRoute from "./TestRoute";
 import { Link } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      Hello World, if you want to visit the test <Link to={'/test'} >Click Here</Link>
+    <div >
+      <h1>Hello World, if you want to visit the shop <Link to={'/shop'}>Click Here</Link></h1>
     </div>
   );
 }

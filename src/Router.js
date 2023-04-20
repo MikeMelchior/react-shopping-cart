@@ -1,6 +1,6 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
-import TestRoute from "./TestRoute";
+import Shop from "./Components/Shop";
 
 
 
@@ -9,7 +9,7 @@ const Router = () => {
     <HashRouter>
       <Routes>
         <Route path='/' Component={App} />
-        <Route path="/test" Component={TestRoute} />
+        <Route path='/shop' Component={Shop} />
       </Routes>
     </HashRouter>
   )
