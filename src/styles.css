@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 200%;
+}
+
+#root {
+  height: 100%;
+}
+
+.shop {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.cart {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: fit-content;
+  padding: 10px 15px;
+  background-color: rgb(207, 207, 229);
+}
+
+.link {
+  height: 40px;
+  width: fit-content;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
