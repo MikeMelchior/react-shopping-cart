@@ -68,10 +68,14 @@ a {
   font-weight: 400;
 }
 
-.shop h1 {
-  text-align: center;
-  padding: 30px;
+.shop {
+  background: url(./images/shop-background.webp);
+  background-size: cover;
 }
+  .shop h1 {
+    text-align: center;
+    padding: 30px;
+  }
 
 .items {
   display: grid;
@@ -82,6 +86,7 @@ a {
   border-radius: 5px;
   width: 60%;
   margin: auto;
+  background-color: rgba(254, 254, 254, 0.8);
 }
 
   .item {
@@ -99,7 +104,8 @@ a {
       font-size: 28px;
     }
 
-    #product-image {
+    #product-image,
+    .item-card img {
       height: 200px;
       width: 200px;
     }
@@ -107,3 +113,39 @@ a {
       #product-image:hover {
         transform: scale(1.07);
       }
+  .item-card {
+    border: 1px solid;
+  }
+
+.contact p{
+  text-align: end;
+  padding: 3px 5px 0 0;
+  opacity: 0.4;
+}
+  .socials-container {
+    display: grid;
+    grid: 1fr / 1fr;
+    width: 40%;
+    gap: 15px;
+    margin: 50px 0 0 40px;
+  }
+  .socials-container h2 {
+    font-size: 30px;
+    place-self: center;
+  }
+  .socials {
+    place-self: center;
+    display: flex;
+    gap: 40px;
+  }
+  .contact img {
+    height: 100px;
+    width: 100px;
+  }
+  .contact img:hover {
+    cursor: pointer;
+
+  }
+  #insta {
+    padding: 6px;
+  }
