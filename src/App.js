@@ -1,10 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Nav from "./Components/Nav";
 
 function App() {
   return (
-    <div >
-      <h1>Hello World, if you want to visit the shop <Link to={'/shop'}>Click Here</Link></h1>
+
+    <div className="homepage">
+      <Nav />
+      <h2><i>Bringing high quality fresh local produce to your doorstep!</i></h2>
     </div>
   );
 }
