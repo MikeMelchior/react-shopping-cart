@@ -1,5 +1,5 @@
 import React, { useEffect, useId, useState } from 'react'
-import Cart from './Cart'
+import Nav from './Nav'
 import uniqid from 'uniqid'
 import apple from '../images/apple.png'
 import cucumber from '../images/cucumber.png'
@@ -19,15 +19,15 @@ function Shop() {
 
   useEffect(() => {
     const inventory = [
-      { name: 'apple', cost: 0.5, img: apple},
-      { name: 'cucumber', cost: 2, img: cucumber },
+      { name: 'apple', cost: 0.50, img: apple},
+      { name: 'cucumber', cost: 2.00, img: cucumber },
       { name: 'banana', cost: 1.25, img: banana },
-      { name: 'onion', cost: 3.8, img: onion },
-      { name: 'carrot', cost: 1, img: carrot },
+      { name: 'onion', cost: 3.80, img: onion },
+      { name: 'carrot', cost: 1.00, img: carrot },
       { name: 'broccoli', cost: 1.80, img: broccoli },
-      { name: 'spinach', cost: 4.1, img: spinach },
-      { name: 'lemon', cost: 0.8, img: lemon },
-      { name: 'mango', cost: 2, img: mango },
+      { name: 'spinach', cost: 4.10, img: spinach },
+      { name: 'lemon', cost: 0.80, img: lemon },
+      { name: 'mango', cost: 2.00, img: mango },
       { name: 'avocado', cost: 0.25, img: avocado },
     ]
     setProducts(inventory)
@@ -36,14 +36,19 @@ function Shop() {
   
   return (
     <div className='shop'>
-      <Cart />
-      <h1>Produce Store</h1>
+      <Nav />
+      {/* <Cart /> */}
+      <h1>Local Produce</h1>
       <div className="items">
         {products.map(p => (
-          <div key={uniqid()} className='item'>
+          <div key={uniqid()} className='item'> 
+            <p className='item-title'>{p.name}</p>
             <img id='product-image' src={p.img} alt="food" />
-            <p>{p.name}</p>
-            <p>{p.cost}</p>
+            <div className='item-handler'>
+              <p>${p.cost}</p>
+
+            </div>
+            
           </div>
         ))}
       </div>
