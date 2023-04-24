@@ -14,15 +14,16 @@ html {
   height: 100%;
 }
 
+
 #root {
   height: 100%;
+  background-image: url('../src/images/background.jpg');
+  background-size: cover;
 }
 
 .contact,
 .homepage {
   height: 100%;
-  background-image: url('../src/images/background.jpg');
-  background-size: cover;
 }
 
 a {
@@ -32,31 +33,32 @@ a {
 
 .nav {
   position: sticky;
-  top: 0px;
+  top: 0;
   width: 100%;
   height: fit-content;
-  
-  background-color: #f0f0f0;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  background-color: #d42929;
+  font-weight: 600;
 }
 
-  .nav div:nth-child(2),
-  .nav div:nth-child(3) {
-    place-self: end;
-  }
-
-  .link {
-    height: 100%;
-    width: fit-content;
-    padding: 10px 15px;
-    font-size: 2rem;
+  ul {
     display: flex;
+    font-size: 2rem;
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
     align-items: center;
-    border-radius: 10px;
   }
 
-    .link:hover {
+    li {
+      display: flex;
+      align-items: center;
+      height: 60px;
+      border-radius: 3px;
+    }
+
+    li:hover {
       background-color: #dddddd;
     }
 
@@ -85,6 +87,7 @@ a {
   border: 1px solid;
   border-radius: 5px;
   width: 60%;
+  min-width: fit-content;
   margin: auto;
   background-color: rgba(254, 254, 254, 0.8);
 }
@@ -102,6 +105,7 @@ a {
 
     .item-title {
       font-size: 28px;
+      padding: 10px;
     }
 
     #product-image,
@@ -148,4 +152,37 @@ a {
   }
   #insta {
     padding: 6px;
+  }
+
+.nav div:nth-child(4) {
+  place-self: end;
+}
+
+  .cart {
+    position: relative;
+  }
+
+  #cart{
+    height: 60px;
+    width: 60px;
+  }
+
+  .item-count {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    font-weight: 600;
+    background-color: red;
+    width: 24px;
+    height: 24px;
+    border-radius: 100px;
+    display: grid;
+    place-items: center;
+  }
+
+
+
+ #test {
+    color: black;
+    font-size: 30px;
   }
