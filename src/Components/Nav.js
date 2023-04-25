@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import cart from '../images/cart.png'
 
-function Nav() {
+function Nav( { cartItems } ) {
   
   return (
     <div className='nav'>
@@ -18,7 +18,8 @@ function Nav() {
         </li>
         <li className='push-right'>
           <Link to={'/cart'}>
-            <img id='cart' src={cart} alt="cart" />
+            <img id='cart' src={cart} alt="cart"/>
+            {cartItems && cartItems.length > 0 ? <p className='item-count'>{cartItems.length}</p> : null}
           </Link>
         </li>
       </ul>
