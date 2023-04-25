@@ -11,16 +11,16 @@ import avocado from '../images/avocado.png'
 
 
 const inventory = [
-  { name: 'apple', cost: 0.50, img: apple},
-  { name: 'cucumbers', cost: 2.00, img: cucumber},
-  { name: 'bananas', cost: 1.25, img: banana},
-  { name: 'onions', cost: 3.80, img: onion},
-  { name: 'carrots', cost: 1.00, img: carrot},
-  { name: 'broccoli', cost: 1.80, img: broccoli},
-  { name: 'spinach', cost: 4.00, img: spinach},
-  { name: 'lemon', cost: 0.80, img: lemon},
-  { name: 'mango', cost: 2.00, img: mango},
-  { name: 'avocado', cost: 0.25, img: avocado},
+  { name: 'apple', cost: 0.49, img: apple},
+  { name: 'cucumbers', cost: 1.99, img: cucumber},
+  { name: 'bananas', cost: 1.29, img: banana},
+  { name: 'onions', cost: 1.49, img: onion},
+  { name: 'carrots', cost: 0.99, img: carrot},
+  { name: 'broccoli', cost: 1.79, img: broccoli},
+  { name: 'spinach', cost: 2.99, img: spinach},
+  { name: 'lemon', cost: 0.99, img: lemon},
+  { name: 'mango', cost: 1.99, img: mango},
+  { name: 'avocado', cost: 0.79, img: avocado},
 ]
 
 export { inventory }
