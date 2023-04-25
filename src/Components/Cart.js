@@ -1,17 +1,20 @@
-import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
-import '../styles.css'
-// import key from '../ing'
+import React from 'react'
 
-function Cart() {
-  const [totalCost, setTotalCost] = useState(0)
-  const [totalItems, setTotalItems] = useState(0)
-  
-
+const Cart = ( { cartItems } ) => {
 
   return (
-    <div className='cart'>
-      <div className='link'><Link to={'/'}>Home</Link></div>
+    <div>
+      <h1>Cart</h1>
+      {cartItems.map(item => {
+        return (
+          <div>
+            <h3>{item.name}</h3>
+            <p>{item.quantity}</p>
+            <p>{item.cost}</p>
+            <p>total : {item.quantity * item.cost}</p>
+          </div>
+        )
+      })}
     </div>
   )
 }
