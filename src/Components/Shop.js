@@ -4,25 +4,24 @@ import uniqid from 'uniqid'
 
 
 
-function Shop( { products } ) {
-
+function Shop( { products, setProduct } ) {
 
 
   return (
     <>
       <div className='shop'>
-        <h1>Local Produce</h1>
         <div className="items">
-          {products.map(p => (
+          
+          {products.map(product => (
             <div 
               key={uniqid()} 
               className='item'
             > 
-              <Link to={`/shop/${p.name}`}>
-                <p className='item-title'>{p.name}</p>
+              <Link onClick={() => {setProduct(product)}} to={`/shop/${product.name}`}>
+                <p className='item-title'>{product.name}</p>
                 <img 
                   id='product-image' 
-                  src={p.img} 
+                  src={product.img} 
                   alt="food"
                 />
               </Link>
