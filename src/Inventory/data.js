@@ -17,7 +17,7 @@ const inventory = [
   { name: 'onions', cost: 3.80, img: onion},
   { name: 'carrots', cost: 1.00, img: carrot},
   { name: 'broccoli', cost: 1.80, img: broccoli},
-  { name: 'spinach', cost: 4.10, img: spinach},
+  { name: 'spinach', cost: 4.00, img: spinach},
   { name: 'lemon', cost: 0.80, img: lemon},
   { name: 'mango', cost: 2.00, img: mango},
   { name: 'avocado', cost: 0.25, img: avocado},

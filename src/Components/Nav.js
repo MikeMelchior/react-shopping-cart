@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../styles.css'
 import cart from '../images/cart.png'
 
 function Nav() {
@@ -17,7 +16,7 @@ function Nav() {
         <li>
           <Link to={'/contact'}>Contact Us</Link>
         </li>
-        <li>
+        <li className='push-right'>
           <Link to={'/cart'}>
             <img id='cart' src={cart} alt="cart" />
           </Link>

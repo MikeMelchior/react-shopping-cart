@@ -1,5 +1,4 @@
 import React from 'react'
-import Nav from './Nav'
 import insta from '../images/insta.png'
 import facebook from '../images/facebook.png'
 import twitter from '../images/twitter.png'
@@ -8,7 +7,6 @@ import twitter from '../images/twitter.png'
 function Contact() {
   return (
     <div className='contact'>
-      <Nav />
         <p>Phone: (123) 456 - 7890</p>
         <p>Email: shoplocalproduce@efake.com</p>
       <div className='socials-container'>
