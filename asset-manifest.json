@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-shopping-cart/static/css/main.4b59b2b0.css",
+    "main.js": "/react-shopping-cart/static/js/main.7a251884.js",
+    "static/media/onion.png": "/react-shopping-cart/static/media/onion.7ebdfb6ccf518e9eda72.png",
+    "static/media/carrot.png": "/react-shopping-cart/static/media/carrot.198fb33505b75555f819.png",
+    "static/media/apple.png": "/react-shopping-cart/static/media/apple.49e2dc91fa784a6fcf5e.png",
+    "static/media/cucumber.png": "/react-shopping-cart/static/media/cucumber.1982afadcc04715a00ff.png",
+    "static/media/mango.png": "/react-shopping-cart/static/media/mango.cae62da7809ccd955be2.png",
+    "static/media/broccoli.png": "/react-shopping-cart/static/media/broccoli.49ba37fd8c825295d55e.png",
+    "static/media/spinach.png": "/react-shopping-cart/static/media/spinach.7b162d413279aa08e7cc.png",
+    "static/media/avocado.png": "/react-shopping-cart/static/media/avocado.347e1f2866a960557f3c.png",
+    "static/media/insta.png": "/react-shopping-cart/static/media/insta.4763650d289266d6bbe6.png",
+    "static/media/background.jpg": "/react-shopping-cart/static/media/background.b01717c74fa227e4380d.jpg",
+    "static/media/lemon.png": "/react-shopping-cart/static/media/lemon.cc7070dd0370eaa0dd9c.png",
+    "static/media/shop-background.webp": "/react-shopping-cart/static/media/shop-background.85e825e63cf9ac785b61.webp",
+    "static/media/banana.png": "/react-shopping-cart/static/media/banana.2128bc16b9100792132d.png",
+    "static/media/Quicksand-VariableFont_wght.ttf": "/react-shopping-cart/static/media/Quicksand-VariableFont_wght.cf52df73d8529b4815ed.ttf",
+    "static/media/cart.png": "/react-shopping-cart/static/media/cart.4391756abb7372d1d8e1.png",
+    "static/media/facebook.png": "/react-shopping-cart/static/media/facebook.49fb52a8bbcdad48ddcb.png",
+    "index.html": "/react-shopping-cart/index.html",
+    "main.4b59b2b0.css.map": "/react-shopping-cart/static/css/main.4b59b2b0.css.map",
+    "main.7a251884.js.map": "/react-shopping-cart/static/js/main.7a251884.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b59b2b0.css",
+    "static/js/main.7a251884.js"
+  ]
+}
