@@ -27,7 +27,7 @@ const App = () => {
 
   return (
     <>
-      <Nav />
+      <Nav cartItems={cartItems} />
       <div className="container">
         <Routes>
           <Route index element={<Homepage />} />
